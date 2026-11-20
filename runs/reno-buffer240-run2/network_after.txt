@@ -1,0 +1,376 @@
+=== s: ip -br addr ===
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+s-data@if2       UP             10.0.1.1/30 
+
+
+=== s: ip -4 route ===
+10.0.1.0/30 dev s-data proto kernel scope link src 10.0.1.1 
+10.0.2.2 via 10.0.1.2 dev s-data src 10.0.1.1 
+
+
+=== s: uname -r ===
+5.15.0-191-generic
+
+
+=== s: sysctl net.ipv4.ip_forward net.ipv4.tcp_timestamps net.ipv4.tcp_ecn ===
+net.ipv4.ip_forward = 0
+net.ipv4.tcp_timestamps = 0
+net.ipv4.tcp_ecn = 0
+
+
+=== s: tc -s qdisc show dev s-data ===
+qdisc netem 10: root refcnt 2 limit 10000 delay 20ms rate 50Mbit
+ Sent 225460721 bytes 223582 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+
+=== s: ethtool -k s-data ===
+Features for s-data:
+rx-checksumming: on
+tx-checksumming: on
+	tx-checksum-ipv4: off [fixed]
+	tx-checksum-ip-generic: on
+	tx-checksum-ipv6: off [fixed]
+	tx-checksum-fcoe-crc: off [fixed]
+	tx-checksum-sctp: on
+scatter-gather: off
+	tx-scatter-gather: off
+	tx-scatter-gather-fraglist: off
+tcp-segmentation-offload: off
+	tx-tcp-segmentation: off
+	tx-tcp-ecn-segmentation: off
+	tx-tcp-mangleid-segmentation: off
+	tx-tcp6-segmentation: off
+generic-segmentation-offload: off
+generic-receive-offload: off
+large-receive-offload: off [fixed]
+rx-vlan-offload: on
+tx-vlan-offload: on
+ntuple-filters: off [fixed]
+receive-hashing: off [fixed]
+highdma: on
+rx-vlan-filter: off [fixed]
+vlan-challenged: off [fixed]
+tx-lockless: on [fixed]
+netns-local: off [fixed]
+tx-gso-robust: off [fixed]
+tx-fcoe-segmentation: off [fixed]
+tx-gre-segmentation: on
+tx-gre-csum-segmentation: on
+tx-ipxip4-segmentation: on
+tx-ipxip6-segmentation: on
+tx-udp_tnl-segmentation: on
+tx-udp_tnl-csum-segmentation: on
+tx-gso-partial: off [fixed]
+tx-tunnel-remcsum-segmentation: off [fixed]
+tx-sctp-segmentation: on
+tx-esp-segmentation: off [fixed]
+tx-udp-segmentation: on
+tx-gso-list: on
+fcoe-mtu: off [fixed]
+tx-nocache-copy: off
+loopback: off [fixed]
+rx-fcs: off [fixed]
+rx-all: off [fixed]
+tx-vlan-stag-hw-insert: on
+rx-vlan-stag-hw-parse: on
+rx-vlan-stag-filter: off [fixed]
+l2-fwd-offload: off [fixed]
+hw-tc-offload: off [fixed]
+esp-hw-offload: off [fixed]
+esp-tx-csum-hw-offload: off [fixed]
+rx-udp_tunnel-port-offload: off [fixed]
+tls-hw-tx-offload: off [fixed]
+tls-hw-rx-offload: off [fixed]
+rx-gro-hw: off [fixed]
+tls-hw-record: off [fixed]
+rx-gro-list: off
+macsec-hw-offload: off [fixed]
+rx-udp-gro-forwarding: off
+hsr-tag-ins-offload: off [fixed]
+hsr-tag-rm-offload: off [fixed]
+hsr-fwd-offload: off [fixed]
+hsr-dup-offload: off [fixed]
+
+
+=== s: sysctl net.ipv4.conf.s-data.rp_filter ===
+net.ipv4.conf.s-data.rp_filter = 0
+
+
+=== r: ip -br addr ===
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+r-left@if2       UP             10.0.1.2/30 fe80::e89c:f1ff:fee6:c605/64 
+r-right@if2      UP             10.0.2.1/30 
+
+
+=== r: ip -4 route ===
+10.0.1.0/30 dev r-left proto kernel scope link src 10.0.1.2 
+10.0.2.0/30 dev r-right proto kernel scope link src 10.0.2.1 
+
+
+=== r: uname -r ===
+5.15.0-191-generic
+
+
+=== r: sysctl net.ipv4.ip_forward net.ipv4.tcp_timestamps net.ipv4.tcp_ecn ===
+net.ipv4.ip_forward = 1
+net.ipv4.tcp_timestamps = 1
+net.ipv4.tcp_ecn = 2
+
+
+=== r: tc -s qdisc show dev r-left ===
+qdisc netem 10: root refcnt 2 limit 10000 delay 20ms rate 50Mbit
+ Sent 6210945 bytes 112226 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+
+=== r: ethtool -k r-left ===
+Features for r-left:
+rx-checksumming: on
+tx-checksumming: on
+	tx-checksum-ipv4: off [fixed]
+	tx-checksum-ip-generic: on
+	tx-checksum-ipv6: off [fixed]
+	tx-checksum-fcoe-crc: off [fixed]
+	tx-checksum-sctp: on
+scatter-gather: off
+	tx-scatter-gather: off
+	tx-scatter-gather-fraglist: off
+tcp-segmentation-offload: off
+	tx-tcp-segmentation: off
+	tx-tcp-ecn-segmentation: off
+	tx-tcp-mangleid-segmentation: off
+	tx-tcp6-segmentation: off
+generic-segmentation-offload: off
+generic-receive-offload: off
+large-receive-offload: off [fixed]
+rx-vlan-offload: on
+tx-vlan-offload: on
+ntuple-filters: off [fixed]
+receive-hashing: off [fixed]
+highdma: on
+rx-vlan-filter: off [fixed]
+vlan-challenged: off [fixed]
+tx-lockless: on [fixed]
+netns-local: off [fixed]
+tx-gso-robust: off [fixed]
+tx-fcoe-segmentation: off [fixed]
+tx-gre-segmentation: on
+tx-gre-csum-segmentation: on
+tx-ipxip4-segmentation: on
+tx-ipxip6-segmentation: on
+tx-udp_tnl-segmentation: on
+tx-udp_tnl-csum-segmentation: on
+tx-gso-partial: off [fixed]
+tx-tunnel-remcsum-segmentation: off [fixed]
+tx-sctp-segmentation: on
+tx-esp-segmentation: off [fixed]
+tx-udp-segmentation: on
+tx-gso-list: on
+fcoe-mtu: off [fixed]
+tx-nocache-copy: off
+loopback: off [fixed]
+rx-fcs: off [fixed]
+rx-all: off [fixed]
+tx-vlan-stag-hw-insert: on
+rx-vlan-stag-hw-parse: on
+rx-vlan-stag-filter: off [fixed]
+l2-fwd-offload: off [fixed]
+hw-tc-offload: off [fixed]
+esp-hw-offload: off [fixed]
+esp-tx-csum-hw-offload: off [fixed]
+rx-udp_tunnel-port-offload: off [fixed]
+tls-hw-tx-offload: off [fixed]
+tls-hw-rx-offload: off [fixed]
+rx-gro-hw: off [fixed]
+tls-hw-record: off [fixed]
+rx-gro-list: off
+macsec-hw-offload: off [fixed]
+rx-udp-gro-forwarding: off
+hsr-tag-ins-offload: off [fixed]
+hsr-tag-rm-offload: off [fixed]
+hsr-fwd-offload: off [fixed]
+hsr-dup-offload: off [fixed]
+
+
+=== r: sysctl net.ipv4.conf.r-left.rp_filter ===
+net.ipv4.conf.r-left.rp_filter = 0
+
+
+=== r: tc -s qdisc show dev r-right ===
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 224313411 bytes 222447 pkt (dropped 1135, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+
+=== r: ethtool -k r-right ===
+Features for r-right:
+rx-checksumming: on
+tx-checksumming: on
+	tx-checksum-ipv4: off [fixed]
+	tx-checksum-ip-generic: on
+	tx-checksum-ipv6: off [fixed]
+	tx-checksum-fcoe-crc: off [fixed]
+	tx-checksum-sctp: on
+scatter-gather: off
+	tx-scatter-gather: off
+	tx-scatter-gather-fraglist: off
+tcp-segmentation-offload: off
+	tx-tcp-segmentation: off
+	tx-tcp-ecn-segmentation: off
+	tx-tcp-mangleid-segmentation: off
+	tx-tcp6-segmentation: off
+generic-segmentation-offload: off
+generic-receive-offload: off
+large-receive-offload: off [fixed]
+rx-vlan-offload: on
+tx-vlan-offload: on
+ntuple-filters: off [fixed]
+receive-hashing: off [fixed]
+highdma: on
+rx-vlan-filter: off [fixed]
+vlan-challenged: off [fixed]
+tx-lockless: on [fixed]
+netns-local: off [fixed]
+tx-gso-robust: off [fixed]
+tx-fcoe-segmentation: off [fixed]
+tx-gre-segmentation: on
+tx-gre-csum-segmentation: on
+tx-ipxip4-segmentation: on
+tx-ipxip6-segmentation: on
+tx-udp_tnl-segmentation: on
+tx-udp_tnl-csum-segmentation: on
+tx-gso-partial: off [fixed]
+tx-tunnel-remcsum-segmentation: off [fixed]
+tx-sctp-segmentation: on
+tx-esp-segmentation: off [fixed]
+tx-udp-segmentation: on
+tx-gso-list: on
+fcoe-mtu: off [fixed]
+tx-nocache-copy: off
+loopback: off [fixed]
+rx-fcs: off [fixed]
+rx-all: off [fixed]
+tx-vlan-stag-hw-insert: on
+rx-vlan-stag-hw-parse: on
+rx-vlan-stag-filter: off [fixed]
+l2-fwd-offload: off [fixed]
+hw-tc-offload: off [fixed]
+esp-hw-offload: off [fixed]
+esp-tx-csum-hw-offload: off [fixed]
+rx-udp_tunnel-port-offload: off [fixed]
+tls-hw-tx-offload: off [fixed]
+tls-hw-rx-offload: off [fixed]
+rx-gro-hw: off [fixed]
+tls-hw-record: off [fixed]
+rx-gro-list: off
+macsec-hw-offload: off [fixed]
+rx-udp-gro-forwarding: off
+hsr-tag-ins-offload: off [fixed]
+hsr-tag-rm-offload: off [fixed]
+hsr-fwd-offload: off [fixed]
+hsr-dup-offload: off [fixed]
+
+
+=== r: sysctl net.ipv4.conf.r-right.rp_filter ===
+net.ipv4.conf.r-right.rp_filter = 0
+
+
+=== d: ip -br addr ===
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+d-data@if3       UP             10.0.2.2/30 
+
+
+=== d: ip -4 route ===
+10.0.1.1 via 10.0.2.1 dev d-data src 10.0.2.2 
+10.0.2.0/30 dev d-data proto kernel scope link src 10.0.2.2 
+
+
+=== d: uname -r ===
+5.15.0-191-generic
+
+
+=== d: sysctl net.ipv4.ip_forward net.ipv4.tcp_timestamps net.ipv4.tcp_ecn ===
+net.ipv4.ip_forward = 0
+net.ipv4.tcp_timestamps = 0
+net.ipv4.tcp_ecn = 0
+
+
+=== d: tc -s qdisc show dev d-data ===
+qdisc netem 10: root refcnt 2 limit 10000 delay 5ms rate 10Mbit
+ Sent 6210525 bytes 112220 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+
+=== d: ethtool -k d-data ===
+Features for d-data:
+rx-checksumming: on
+tx-checksumming: on
+	tx-checksum-ipv4: off [fixed]
+	tx-checksum-ip-generic: on
+	tx-checksum-ipv6: off [fixed]
+	tx-checksum-fcoe-crc: off [fixed]
+	tx-checksum-sctp: on
+scatter-gather: off
+	tx-scatter-gather: off
+	tx-scatter-gather-fraglist: off
+tcp-segmentation-offload: off
+	tx-tcp-segmentation: off
+	tx-tcp-ecn-segmentation: off
+	tx-tcp-mangleid-segmentation: off
+	tx-tcp6-segmentation: off
+generic-segmentation-offload: off
+generic-receive-offload: off
+large-receive-offload: off [fixed]
+rx-vlan-offload: on
+tx-vlan-offload: on
+ntuple-filters: off [fixed]
+receive-hashing: off [fixed]
+highdma: on
+rx-vlan-filter: off [fixed]
+vlan-challenged: off [fixed]
+tx-lockless: on [fixed]
+netns-local: off [fixed]
+tx-gso-robust: off [fixed]
+tx-fcoe-segmentation: off [fixed]
+tx-gre-segmentation: on
+tx-gre-csum-segmentation: on
+tx-ipxip4-segmentation: on
+tx-ipxip6-segmentation: on
+tx-udp_tnl-segmentation: on
+tx-udp_tnl-csum-segmentation: on
+tx-gso-partial: off [fixed]
+tx-tunnel-remcsum-segmentation: off [fixed]
+tx-sctp-segmentation: on
+tx-esp-segmentation: off [fixed]
+tx-udp-segmentation: on
+tx-gso-list: on
+fcoe-mtu: off [fixed]
+tx-nocache-copy: off
+loopback: off [fixed]
+rx-fcs: off [fixed]
+rx-all: off [fixed]
+tx-vlan-stag-hw-insert: on
+rx-vlan-stag-hw-parse: on
+rx-vlan-stag-filter: off [fixed]
+l2-fwd-offload: off [fixed]
+hw-tc-offload: off [fixed]
+esp-hw-offload: off [fixed]
+esp-tx-csum-hw-offload: off [fixed]
+rx-udp_tunnel-port-offload: off [fixed]
+tls-hw-tx-offload: off [fixed]
+tls-hw-rx-offload: off [fixed]
+rx-gro-hw: off [fixed]
+tls-hw-record: off [fixed]
+rx-gro-list: off
+macsec-hw-offload: off [fixed]
+rx-udp-gro-forwarding: off
+hsr-tag-ins-offload: off [fixed]
+hsr-tag-rm-offload: off [fixed]
+hsr-fwd-offload: off [fixed]
+hsr-dup-offload: off [fixed]
+
+
+=== d: sysctl net.ipv4.conf.d-data.rp_filter ===
+net.ipv4.conf.d-data.rp_filter = 0
+

@@ -1,0 +1,1730 @@
+===== 0.079901 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 423367574 bytes 419588 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 4056b 4p requeues 0
+
+===== 0.271713 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 423584668 bytes 419803 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 125736b 124p requeues 0
+
+===== 0.471910 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 423839280 bytes 420055 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 142974b 141p requeues 0
+
+===== 0.622375 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 424015716 bytes 420229 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 118736b 118p requeues 0
+
+===== 0.769842 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 424200460 bytes 420413 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 21294b 21p requeues 0
+
+===== 0.931214 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 424414414 bytes 420624 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 21392b 22p requeues 0
+
+===== 1.029284 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 424534164 bytes 420743 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8112b 8p requeues 0
+
+===== 1.129787 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 424649858 bytes 420858 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 1.256638 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 424788776 bytes 420995 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 1.382760 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 424935904 bytes 421141 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 22308b 22p requeues 0
+
+===== 1.525205 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 425089018 bytes 421292 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 1014b 1p requeues 0
+
+===== 1.641344 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 425211810 bytes 421414 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 1.769663 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 425350826 bytes 421552 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 1.906591 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 425513066 bytes 421712 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 26364b 26p requeues 0
+
+===== 2.046445 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 425683516 bytes 421881 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 2.193708 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 425849910 bytes 422046 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 2.305355 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 425980716 bytes 422175 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 18252b 18p requeues 0
+
+===== 2.422463 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 426126830 bytes 422320 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 12168b 12p requeues 0
+
+===== 2.541173 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 426266860 bytes 422459 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 2.659512 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 426406792 bytes 422597 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8112b 8p requeues 0
+
+===== 2.784503 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 426558990 bytes 422748 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 22308b 22p requeues 0
+
+===== 2.899656 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 426699936 bytes 422887 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 13182b 13p requeues 0
+
+===== 3.015255 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 426840980 bytes 423027 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8112b 8p requeues 0
+
+===== 3.134206 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 426981926 bytes 423166 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 11Kb 12p requeues 0
+
+===== 3.267476 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 427139194 bytes 423322 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 21294b 21p requeues 0
+
+===== 3.374197 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 427274154 bytes 423456 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 14196b 14p requeues 0
+
+===== 3.501303 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 427424226 bytes 423604 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 14196b 14p requeues 0
+
+===== 3.650148 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 427599746 bytes 423778 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 17238b 17p requeues 0
+
+===== 3.768049 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 427717468 bytes 423895 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 11154b 11p requeues 0
+
+===== 3.902761 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 427883764 bytes 424059 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 14196b 14p requeues 0
+
+===== 4.017808 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 428019738 bytes 424194 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 4.144223 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 428165754 bytes 424338 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 12168b 12p requeues 0
+
+===== 4.279094 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 428326064 bytes 424497 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 30420b 30p requeues 0
+
+===== 4.401493 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 428476234 bytes 424646 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 4.521748 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 428617180 bytes 424785 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 11154b 11p requeues 0
+
+===== 4.641753 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 428755182 bytes 424922 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 7098b 7p requeues 0
+
+===== 4.753922 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 428891058 bytes 425056 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 15210b 15p requeues 0
+
+===== 4.861771 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 429013850 bytes 425178 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 4.986574 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 429159964 bytes 425323 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 12168b 12p requeues 0
+
+===== 5.117005 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 429317134 bytes 425478 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 14196b 14p requeues 0
+
+===== 5.233696 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 429461220 bytes 425621 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 24336b 24p requeues 0
+
+===== 5.357409 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 429610278 bytes 425768 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 11154b 11p requeues 0
+
+===== 5.474704 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 429746252 bytes 425903 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 11154b 11p requeues 0
+
+===== 5.604369 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 429895408 bytes 426051 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 16224b 16p requeues 0
+
+===== 5.739792 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 430063732 bytes 426217 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 25350b 25p requeues 0
+
+===== 5.872279 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 430229112 bytes 426381 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 16224b 16p requeues 0
+
+===== 5.991500 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 430375226 bytes 426526 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 6.088594 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 430456346 bytes 426606 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 13182b 13p requeues 0
+
+===== 6.214656 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 430610572 bytes 426759 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 26364b 26p requeues 0
+
+===== 6.346282 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 430770784 bytes 426917 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8112b 8p requeues 0
+
+===== 6.496954 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 430949346 bytes 427094 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 6.650855 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 431124866 bytes 427268 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 26364b 26p requeues 0
+
+===== 6.808318 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 431323708 bytes 427465 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 13182b 13p requeues 0
+
+===== 6.944048 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 431487976 bytes 427627 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 7.080704 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 431647272 bytes 427785 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 11154b 11p requeues 0
+
+===== 7.237651 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 431835974 bytes 427972 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 16224b 16p requeues 0
+
+===== 7.370974 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 432005312 bytes 428139 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 13182b 13p requeues 0
+
+===== 7.480124 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 432133174 bytes 428266 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 7.619915 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 432295512 bytes 428427 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 22308b 22p requeues 0
+
+===== 7.720366 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 432421248 bytes 428551 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 21294b 21p requeues 0
+
+===== 7.849337 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 432580544 bytes 428709 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 7.970619 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 432717434 bytes 428844 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 6084b 6p requeues 0
+
+===== 8.088454 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 432862534 bytes 428988 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 19266b 19p requeues 0
+
+===== 8.208113 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 433009564 bytes 429133 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 12266b 13p requeues 0
+
+===== 8.305340 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 433125258 bytes 429248 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 6084b 6p requeues 0
+
+===== 8.423377 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 433262246 bytes 429384 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 8.504496 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 433354520 bytes 429475 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 7098b 7p requeues 0
+
+===== 8.628247 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 433503676 bytes 429623 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 20280b 20p requeues 0
+
+===== 8.734104 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 433626370 bytes 429744 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 8.833926 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 433732938 bytes 429850 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8112b 8p requeues 0
+
+===== 8.948709 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 433864758 bytes 429980 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 12168b 12p requeues 0
+
+===== 9.070487 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 434010872 bytes 430125 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 26364b 26p requeues 0
+
+===== 9.178728 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 434141678 bytes 430254 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 9.292089 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 434268526 bytes 430380 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 9.408597 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 434401360 bytes 430511 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10Kb 11p requeues 0
+
+===== 9.529219 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 434547474 bytes 430656 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 21294b 21p requeues 0
+
+===== 9.644765 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 434692574 bytes 430800 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 22308b 22p requeues 0
+
+===== 9.752870 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 434828450 bytes 430934 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 9.911996 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 435008026 bytes 431112 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 5070b 5p requeues 0
+
+===== 9.990809 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 435025264 bytes 431129 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+===== 10.075869 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 435029418 bytes 431134 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+===== 10.160284 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 435037530 bytes 431142 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+===== 10.248287 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 435096440 bytes 431201 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8112b 8p requeues 0
+
+===== 10.341120 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 435206966 bytes 431310 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8112b 8p requeues 0
+
+===== 10.443979 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 435316576 bytes 431419 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8112b 8p requeues 0
+
+===== 10.582534 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 435466648 bytes 431567 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 14196b 14p requeues 0
+
+===== 10.678236 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 435522516 bytes 431623 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 6084b 6p requeues 0
+
+===== 10.818917 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 435693882 bytes 431792 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 26462b 27p requeues 0
+
+===== 10.952953 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 435858248 bytes 431955 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 12168b 12p requeues 0
+
+===== 11.058393 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 435983068 bytes 432079 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 11.176260 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 436125028 bytes 432219 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 11154b 11p requeues 0
+
+===== 11.311816 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 436291422 bytes 432384 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 27378b 27p requeues 0
+
+===== 11.444155 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 436462886 bytes 432554 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 11154b 11p requeues 0
+
+===== 11.540145 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 436567328 bytes 432657 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 11.655953 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 436698232 bytes 432787 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8112b 8p requeues 0
+
+===== 11.786599 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 436851346 bytes 432938 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 26364b 26p requeues 0
+
+===== 11.892768 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 436983264 bytes 433069 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 12.049634 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 437160812 bytes 433245 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 11154b 11p requeues 0
+
+===== 12.149273 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 437270324 bytes 433353 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 12.301695 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 437452942 bytes 433534 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 19266b 19p requeues 0
+
+===== 12.408764 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 437586790 bytes 433666 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 23322b 23p requeues 0
+
+===== 12.548215 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 437758254 bytes 433836 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 7098b 7p requeues 0
+
+===== 12.708535 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 437938844 bytes 434015 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 12.812161 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 438057482 bytes 434132 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 16224b 16p requeues 0
+
+===== 12.955015 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 438237058 bytes 434310 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 18252b 18p requeues 0
+
+===== 13.133587 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 438428802 bytes 434500 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8112b 8p requeues 0
+
+===== 13.281051 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 438551594 bytes 434622 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 23322b 23p requeues 0
+
+===== 13.409670 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 438703694 bytes 434772 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 29406b 29p requeues 0
+
+===== 13.519749 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 438842710 bytes 434910 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 14196b 14p requeues 0
+
+===== 13.656520 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 438998964 bytes 435065 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8112b 8p requeues 0
+
+===== 13.777583 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 439133826 bytes 435198 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 13.906878 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 439285010 bytes 435348 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 20280b 20p requeues 0
+
+===== 14.035984 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 439444208 bytes 435505 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 14.129726 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 439549762 bytes 435610 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 14.266709 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 439710072 bytes 435769 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 14.378267 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 439837836 bytes 435895 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 22308b 22p requeues 0
+
+===== 14.498430 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 439990034 bytes 436046 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 12168b 12p requeues 0
+
+===== 14.603894 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 440113742 bytes 436168 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 14.716449 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 440243632 bytes 436297 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 14.862652 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 440415096 bytes 436467 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 21294b 21p requeues 0
+
+===== 14.996058 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 440582406 bytes 436632 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 23322b 23p requeues 0
+
+===== 15.121689 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 440735618 bytes 436784 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 15.273890 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 440911138 bytes 436958 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 15.453312 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 441090616 bytes 437135 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 29406b 29p requeues 0
+
+===== 15.599969 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 441280332 bytes 437323 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 13182b 13p requeues 0
+
+===== 15.726734 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 441426446 bytes 437468 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 11154b 11p requeues 0
+
+===== 15.843232 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 441557252 bytes 437597 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 18252b 18p requeues 0
+
+===== 15.945097 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 441686128 bytes 437725 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 21294b 21p requeues 0
+
+===== 16.077513 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 441844410 bytes 437882 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 16.196338 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 441984342 bytes 438020 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 16.320007 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 442131470 bytes 438166 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 18252b 18p requeues 0
+
+===== 16.455673 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 442296752 bytes 438329 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 14196b 14p requeues 0
+
+===== 16.541087 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 442396222 bytes 438428 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 11154b 11p requeues 0
+
+===== 16.659298 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 442536154 bytes 438566 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9Kb 10p requeues 0
+
+===== 16.786963 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 442681254 bytes 438710 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 16.907343 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 442827368 bytes 438855 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 25350b 25p requeues 0
+
+===== 17.024932 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 442976426 bytes 439002 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 17.116180 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 443081980 bytes 439107 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 17.245253 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 443230024 bytes 439253 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 17.360861 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 443364984 bytes 439387 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 14196b 14p requeues 0
+
+===== 17.509203 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 443550644 bytes 439571 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 28392b 28p requeues 0
+
+===== 17.619370 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 443687534 bytes 439706 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 17238b 17p requeues 0
+
+===== 17.740613 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 443792074 bytes 439810 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 17.892360 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 443954412 bytes 439971 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 18.027356 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 444127806 bytes 440142 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 26364b 26p requeues 0
+
+===== 18.148926 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 444276962 bytes 440290 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 18.273369 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 444422062 bytes 440434 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8112b 8p requeues 0
+
+===== 18.380347 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 444541714 bytes 440552 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 18.504265 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 444701010 bytes 440710 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 27378b 27p requeues 0
+
+===== 18.621861 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 444838914 bytes 440846 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 13182b 13p requeues 0
+
+===== 18.720847 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 444957650 bytes 440964 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 18.821038 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 445076288 bytes 441081 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8112b 8p requeues 0
+
+===== 18.949229 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 445233556 bytes 441237 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 18252b 18p requeues 0
+
+===== 19.086989 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 445409076 bytes 441411 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 15210b 15p requeues 0
+
+===== 19.209724 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 445557120 bytes 441557 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 19.298742 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 445657604 bytes 441657 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 19.405702 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 445780298 bytes 441778 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 11154b 11p requeues 0
+
+===== 19.520135 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 445924384 bytes 441921 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 21294b 21p requeues 0
+
+===== 19.631342 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 446061274 bytes 442056 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 12168b 12p requeues 0
+
+===== 19.733689 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 446171898 bytes 442166 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 7098b 7p requeues 0
+
+===== 19.840815 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 446295606 bytes 442288 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8112b 8p requeues 0
+
+===== 19.967282 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 446446790 bytes 442438 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 22308b 22p requeues 0
+
+===== 20.083379 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 446592806 bytes 442582 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 14294b 15p requeues 0
+
+===== 20.212224 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 446697346 bytes 442686 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+===== 20.336712 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 446830278 bytes 442818 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 20.457453 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 446970210 bytes 442956 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 24336b 24p requeues 0
+
+===== 20.549510 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 447084890 bytes 443070 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 14196b 14p requeues 0
+
+===== 20.639256 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 447200486 bytes 443184 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8112b 8p requeues 0
+
+===== 20.750550 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 447326320 bytes 443309 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 20.889299 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 447482476 bytes 443463 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 12168b 12p requeues 0
+
+===== 21.014797 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 447642786 bytes 443622 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 31434b 31p requeues 0
+
+===== 21.125774 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 447777746 bytes 443756 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 11154b 11p requeues 0
+
+===== 21.237899 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 447910580 bytes 443887 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 21.368745 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 448062778 bytes 444038 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 21.508619 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 448236172 bytes 444209 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 26462b 27p requeues 0
+
+===== 21.615019 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 448371132 bytes 444343 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 11154b 11p requeues 0
+
+===== 21.727879 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 448496966 bytes 444468 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 21.852345 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 448647038 bytes 444616 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 11154b 11p requeues 0
+
+===== 21.976450 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 448795180 bytes 444763 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 23322b 23p requeues 0
+
+===== 22.114099 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 448972728 bytes 444939 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 15210b 15p requeues 0
+
+===== 22.230178 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 449100492 bytes 445065 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 22.334480 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 449225312 bytes 445189 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 22.438749 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 449335838 bytes 445298 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 18252b 18p requeues 0
+
+===== 22.575690 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 449505274 bytes 445466 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 26364b 26p requeues 0
+
+===== 22.700974 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 449621884 bytes 445581 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 28392b 28p requeues 0
+
+===== 22.767308 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 449670654 bytes 445630 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 5070b 5p requeues 0
+
+===== 22.895765 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 449823768 bytes 445781 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 23.046493 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 449994218 bytes 445950 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 23322b 23p requeues 0
+
+===== 23.175487 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 450159598 bytes 446114 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 24336b 24p requeues 0
+
+===== 23.298905 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 450308656 bytes 446261 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 7098b 7p requeues 0
+
+===== 23.402432 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 450405084 bytes 446357 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 23.584291 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 450612038 bytes 446562 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 23.753428 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 450805712 bytes 446753 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 23420b 24p requeues 0
+
+===== 23.827208 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 450874762 bytes 446822 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+===== 23.901084 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 450878818 bytes 446826 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+===== 23.973443 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 450887028 bytes 446835 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+===== 24.097729 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 450897168 bytes 446845 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 24.285145 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 451004750 bytes 446952 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 14196b 14p requeues 0
+
+===== 24.426588 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 451119430 bytes 447066 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 6084b 6p requeues 0
+
+===== 24.565071 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 451218802 bytes 447164 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 6182b 7p requeues 0
+
+===== 24.701091 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 451373028 bytes 447317 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 24.790298 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 451472498 bytes 447416 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 14196b 14p requeues 0
+
+===== 24.929733 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 451643864 bytes 447585 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 25350b 25p requeues 0
+
+===== 25.082999 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 451812286 bytes 447752 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 25.190900 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 451939134 bytes 447878 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 25.367403 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 452144976 bytes 448081 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 21392b 22p requeues 0
+
+===== 25.582619 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 452377280 bytes 448311 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 3140b 4p requeues 0
+
+===== 25.759152 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 452546716 bytes 448479 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 6084b 6p requeues 0
+
+===== 25.915259 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 452716152 bytes 448647 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 18252b 18p requeues 0
+
+===== 26.073465 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 452911952 bytes 448841 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 22308b 22p requeues 0
+
+===== 26.255637 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 453140200 bytes 449067 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8112b 8p requeues 0
+
+===== 26.399232 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 453298482 bytes 449224 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 26.499558 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 453423204 bytes 449347 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 26364b 26p requeues 0
+
+===== 26.591549 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 453536870 bytes 449460 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 13182b 13p requeues 0
+
+===== 26.665472 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 453631172 bytes 449553 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 11154b 11p requeues 0
+
+===== 26.755595 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 453741698 bytes 449662 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 14196b 14p requeues 0
+
+===== 26.838136 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 453845224 bytes 449765 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 16224b 16p requeues 0
+
+===== 27.018197 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 454067388 bytes 449985 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8112b 8p requeues 0
+
+===== 27.186013 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 454259034 bytes 450174 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8112b 8p requeues 0
+
+===== 27.379187 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 454482212 bytes 450395 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 17238b 17p requeues 0
+
+===== 27.480820 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 454616158 bytes 450528 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 25350b 25p requeues 0
+
+===== 27.562059 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 454718572 bytes 450629 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 17238b 17p requeues 0
+
+===== 27.657580 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 454837308 bytes 450747 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 16224b 16p requeues 0
+
+===== 27.812842 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 455021954 bytes 450930 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 11154b 11p requeues 0
+
+===== 27.893685 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 455126396 bytes 451033 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 30420b 30p requeues 0
+
+===== 27.985171 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 455238950 bytes 451144 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 16322b 17p requeues 0
+
+===== 28.072674 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 455349574 bytes 451254 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 17238b 17p requeues 0
+
+===== 28.202435 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 455467198 bytes 451370 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 4056b 4p requeues 0
+
+===== 28.279756 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 455558556 bytes 451461 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8112b 8p requeues 0
+
+===== 28.340634 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 455634606 bytes 451536 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 24336b 24p requeues 0
+
+===== 28.405691 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 455714712 bytes 451615 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 20280b 20p requeues 0
+
+===== 28.532462 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 455862854 bytes 451762 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 16224b 16p requeues 0
+
+===== 28.626720 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 455966380 bytes 451865 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 28.690368 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 456041416 bytes 451939 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 11154b 11p requeues 0
+
+===== 28.756865 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 456124564 bytes 452021 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 16224b 16p requeues 0
+
+===== 28.856111 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 456245328 bytes 452141 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 11154b 11p requeues 0
+
+===== 28.960212 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 456360924 bytes 452255 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 6084b 6p requeues 0
+
+===== 29.122446 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 456533402 bytes 452426 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 7098b 7p requeues 0
+
+===== 29.280075 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 456716020 bytes 452607 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 16224b 16p requeues 0
+
+===== 29.394327 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 456863050 bytes 452752 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 19266b 19p requeues 0
+
+===== 29.515753 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 457013220 bytes 452901 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 27378b 27p requeues 0
+
+===== 29.619530 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 457144026 bytes 453030 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 12168b 12p requeues 0
+
+===== 29.725410 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 457260734 bytes 453146 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 29.883033 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 457441324 bytes 453325 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 30.014252 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 457597480 bytes 453479 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 28392b 28p requeues 0
+
+===== 30.112378 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 457724328 bytes 453605 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 30.225402 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 457861218 bytes 453740 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8112b 8p requeues 0
+
+===== 30.318879 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 457965758 bytes 453844 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 30.430863 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 458101634 bytes 453978 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 22308b 22p requeues 0
+
+===== 30.539349 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 458236594 bytes 454112 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 21294b 21p requeues 0
+
+===== 30.677582 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 458387778 bytes 454262 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 30.782354 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 458513514 bytes 454386 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 30.898083 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 458615012 bytes 454487 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+===== 31.050883 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 458776238 bytes 454646 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 31532b 32p requeues 0
+
+===== 31.168868 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 458934520 bytes 454803 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 11154b 11p requeues 0
+
+===== 31.292074 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 459083676 bytes 454951 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 31.407898 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 459214482 bytes 455080 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 31.534731 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 459371750 bytes 455236 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 27378b 27p requeues 0
+
+===== 31.683422 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 459556396 bytes 455419 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 31.784102 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 459667936 bytes 455529 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 31.900357 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 459802896 bytes 455663 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 32.016192 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 459941814 bytes 455800 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 25350b 25p requeues 0
+
+===== 32.126411 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 460080830 bytes 455938 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8112b 8p requeues 0
+
+===== 32.270269 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 460245196 bytes 456101 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 11154b 11p requeues 0
+
+===== 32.365897 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 460350652 bytes 456205 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8112b 8p requeues 0
+
+===== 32.505530 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 460519074 bytes 456372 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 21294b 21p requeues 0
+
+===== 32.613369 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 460655964 bytes 456507 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 32.713732 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 460766588 bytes 456617 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 32.844494 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 460918688 bytes 456767 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 5070b 5p requeues 0
+
+===== 32.938229 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 461033368 bytes 456881 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 17238b 17p requeues 0
+
+===== 33.033036 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 461150992 bytes 456997 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 29406b 29p requeues 0
+
+===== 33.127306 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 461267700 bytes 457113 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 14196b 14p requeues 0
+
+===== 33.269855 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 461390394 bytes 457234 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 6182b 7p requeues 0
+
+===== 33.407834 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 461530424 bytes 457373 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 33.563423 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 461718112 bytes 457559 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 25350b 25p requeues 0
+
+===== 33.714402 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 461905800 bytes 457745 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 33.834758 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 462034578 bytes 457872 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 11154b 11p requeues 0
+
+===== 33.942032 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 462164468 bytes 458001 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 17238b 17p requeues 0
+
+===== 34.053991 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 462302372 bytes 458137 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 15210b 15p requeues 0
+
+===== 34.165752 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 462436318 bytes 458270 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 34.312119 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 462602712 bytes 458435 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 11154b 11p requeues 0
+
+===== 34.466608 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 462788274 bytes 458618 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 27378b 27p requeues 0
+
+===== 34.576567 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 462927290 bytes 458756 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 14196b 14p requeues 0
+
+===== 34.701488 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 463069348 bytes 458897 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8112b 8p requeues 0
+
+===== 34.799958 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 463182916 bytes 459009 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8112b 8p requeues 0
+
+===== 34.922116 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 463332072 bytes 459157 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 25350b 25p requeues 0
+
+===== 35.039190 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 463479102 bytes 459302 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 14196b 14p requeues 0
+
+===== 35.152951 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 463615076 bytes 459437 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8112b 8p requeues 0
+
+===== 35.274224 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 463755008 bytes 459575 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8210b 9p requeues 0
+
+===== 35.393144 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 463889968 bytes 459709 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 17238b 17p requeues 0
+
+===== 35.513883 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 464042166 bytes 459860 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 14196b 14p requeues 0
+
+===== 35.620554 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 464171958 bytes 459988 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 35.716917 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 464268386 bytes 460084 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 14196b 14p requeues 0
+
+===== 35.866101 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 464427584 bytes 460241 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 21294b 21p requeues 0
+
+===== 35.991263 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 464587894 bytes 460400 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 22308b 22p requeues 0
+
+===== 36.112026 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 464738064 bytes 460549 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 12168b 12p requeues 0
+
+===== 36.233089 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 464884080 bytes 460693 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 12168b 12p requeues 0
+
+===== 36.345512 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 465015998 bytes 460824 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 14196b 14p requeues 0
+
+===== 36.458669 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 465158972 bytes 460965 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 19266b 19p requeues 0
+
+===== 36.570752 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 465293932 bytes 461099 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 36.694505 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 465440046 bytes 461244 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8112b 8p requeues 0
+
+===== 36.800686 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 465561726 bytes 461364 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 12168b 12p requeues 0
+
+===== 36.917236 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 465709868 bytes 461511 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 24336b 24p requeues 0
+
+===== 37.040829 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 465862982 bytes 461662 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 37.138044 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 465965494 bytes 461764 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8112b 8p requeues 0
+
+===== 37.236031 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 466082104 bytes 461879 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 37.361320 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 466229232 bytes 462025 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 26364b 26p requeues 0
+
+===== 37.481235 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 466380318 bytes 462174 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 13182b 13p requeues 0
+
+===== 37.598779 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 466516292 bytes 462309 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 11154b 11p requeues 0
+
+===== 37.720827 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 466662406 bytes 462454 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 37.845280 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 466801324 bytes 462591 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 22308b 22p requeues 0
+
+===== 37.939853 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 466877472 bytes 462667 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+===== 38.086030 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 467023488 bytes 462811 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 38.189061 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 467148308 bytes 462935 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 38.326887 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 467305576 bytes 463091 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 19266b 19p requeues 0
+
+===== 38.455942 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 467466802 bytes 463250 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 14196b 14p requeues 0
+
+===== 38.591359 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 467631168 bytes 463413 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8112b 8p requeues 0
+
+===== 38.725774 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 467789450 bytes 463570 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 9126b 9p requeues 0
+
+===== 38.839544 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 467925326 bytes 463704 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 21294b 21p requeues 0
+
+===== 39.010689 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 468096790 bytes 463874 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 12168b 12p requeues 0
+
+===== 39.146457 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 468179022 bytes 463956 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 10140b 10p requeues 0
+
+===== 39.287686 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 468270282 bytes 464046 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 14196b 14p requeues 0
+
+===== 39.627569 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 468472264 bytes 464247 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 2028b 2p requeues 0
+
+===== 39.866381 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 468578832 bytes 464353 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 2028b 2p requeues 0
+
+===== 40.080106 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 468698637 bytes 464473 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8112b 8p requeues 0
+
+===== 40.178701 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 468772757 bytes 464547 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 6084b 6p requeues 0
+
+===== 40.281727 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 468859001 bytes 464633 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 8112b 8p requeues 0
+
+===== 40.409981 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 468985611 bytes 464755 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 6084b 6p requeues 0
+
+===== 40.496762 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 468997833 bytes 464768 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+===== 40.594618 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 468997931 bytes 464769 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+===== 40.689500 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 468997931 bytes 464769 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+===== 40.773616 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 468998029 bytes 464770 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+===== 40.859527 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 468998029 bytes 464770 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+===== 40.950533 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 468998127 bytes 464771 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+===== 41.033810 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 468998127 bytes 464771 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+===== 41.123351 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 468998127 bytes 464771 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+===== 41.212630 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 468998225 bytes 464772 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+===== 41.308008 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 468998225 bytes 464772 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+===== 41.389844 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 468998323 bytes 464773 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+===== 41.471237 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 468998323 bytes 464773 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+===== 41.578294 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 468998421 bytes 464774 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+===== 41.663417 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 468998421 bytes 464774 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+===== 41.753915 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 468998519 bytes 464775 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+===== 41.842012 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 468998519 bytes 464775 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+===== 41.922275 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 468998519 bytes 464775 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+===== 42.017634 s =====
+qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit
+ Sent 468998617 bytes 464776 pkt (dropped 1229, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+

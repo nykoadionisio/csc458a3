@@ -1,0 +1,121 @@
+{
+  "algorithm": "reno",
+  "analysis_window_s": [
+    5.0,
+    35.0
+  ],
+  "baseline_ping_rtt_ms": {
+    "count": 8,
+    "max": 67.2,
+    "mean": 55.3625,
+    "median": 51.95,
+    "min": 51.7,
+    "p95": 66.25500000000001
+  },
+  "buffer_packets": 240,
+  "configuration": {
+    "d/d-data": {
+      "backlog_bytes": 0,
+      "backlog_packets": 0,
+      "delay_ms": 5.0,
+      "drops": 0,
+      "handle": "10:",
+      "kind": "netem",
+      "limit_packets": 10000,
+      "overlimits": 0,
+      "rate_mbps": 10.0,
+      "raw": "qdisc netem 10: root refcnt 2 limit 10000 delay 5ms rate 10Mbit\n Sent 4705058 bytes 84825 pkt (dropped 0, overlimits 0 requeues 0) \n backlog 0b 0p requeues 0"
+    },
+    "r/r-left": {
+      "backlog_bytes": 0,
+      "backlog_packets": 0,
+      "delay_ms": 20.0,
+      "drops": 0,
+      "handle": "10:",
+      "kind": "netem",
+      "limit_packets": 10000,
+      "overlimits": 0,
+      "rate_mbps": 50.0,
+      "raw": "qdisc netem 10: root refcnt 2 limit 10000 delay 20ms rate 50Mbit\n Sent 4705520 bytes 84832 pkt (dropped 0, overlimits 0 requeues 0) \n backlog 0b 0p requeues 0"
+    },
+    "r/r-right": {
+      "backlog_bytes": 0,
+      "backlog_packets": 0,
+      "delay_ms": 5.0,
+      "drops": 831,
+      "handle": "10:",
+      "kind": "netem",
+      "limit_packets": 240,
+      "overlimits": 0,
+      "rate_mbps": 10.0,
+      "raw": "qdisc netem 10: root refcnt 2 limit 240 delay 5ms rate 10Mbit\n Sent 173170506 bytes 171806 pkt (dropped 831, overlimits 0 requeues 0) \n backlog 0b 0p requeues 0"
+    },
+    "s/s-data": {
+      "backlog_bytes": 0,
+      "backlog_packets": 0,
+      "delay_ms": 20.0,
+      "drops": 0,
+      "handle": "10:",
+      "kind": "netem",
+      "limit_packets": 10000,
+      "overlimits": 0,
+      "rate_mbps": 50.0,
+      "raw": "qdisc netem 10: root refcnt 2 limit 10000 delay 20ms rate 50Mbit\n Sent 174010518 bytes 172638 pkt (dropped 0, overlimits 0 requeues 0) \n backlog 0b 0p requeues 0"
+    }
+  },
+  "cwnd_packets": {
+    "count": 235,
+    "max": 297.0,
+    "mean": 226.80425531914895,
+    "median": 229.0,
+    "min": 148.0,
+    "p95": 290.3
+  },
+  "duration_s": 40.0,
+  "experiment": "home-download",
+  "interval_rate_source": "D: reverse-mode iperf3 client receiver intervals",
+  "iperf_reverse": true,
+  "kernel": "5.15.0-191-generic",
+  "label": "reno-buffer240-run2",
+  "loaded_ping_rtt_ms": {
+    "count": 149,
+    "max": 240.0,
+    "mean": 183.0738255033557,
+    "median": 185.0,
+    "min": 119.0,
+    "p95": 235.0
+  },
+  "loaded_rtt_inflation_ms": 127.7113255033557,
+  "observed_algorithms": [
+    "reno"
+  ],
+  "observed_mss_bytes": [
+    960
+  ],
+  "ping_replies_in_window": 149,
+  "queue_drop_delta": 2.0,
+  "queue_packets": {
+    "count": 235,
+    "max": 239.0,
+    "mean": 168.11489361702127,
+    "median": 169.0,
+    "min": 91.0,
+    "p95": 234.0
+  },
+  "queue_semantics": "netem backlog includes delay-held packets; not an isolated physical FIFO",
+  "schema_version": 3,
+  "tcp_rtt_ms": {
+    "count": 235,
+    "max": 240.332,
+    "mean": 183.41709787234043,
+    "median": 185.823,
+    "min": 110.733,
+    "p95": 235.2955
+  },
+  "throughput": {
+    "receiver_mbps": 9.43605190967214,
+    "sender_mbps": 9.941514657682035,
+    "sender_retransmits": 303
+  },
+  "warnings": []
+}
