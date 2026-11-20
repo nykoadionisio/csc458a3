@@ -1,0 +1,64 @@
+py net.addHost('s', ip=None)
+py net.addHost('r', ip=None)
+py net.addHost('d', ip=None)
+py net.addLink(net['s'], net['r'], intfName1='s-data', intfName2='r-left')
+py net.addLink(net['r'], net['d'], intfName1='r-right', intfName2='d-data')
+py net.build()
+py net.start()
+nodes
+net
+links
+s ip addr flush dev s-data
+r ip addr flush dev r-left
+r ip addr flush dev r-right
+d ip addr flush dev d-data
+s ip addr add 10.0.1.1/30 dev s-data
+r ip addr add 10.0.1.2/30 dev r-left
+r ip addr add 10.0.2.1/30 dev r-right
+d ip addr add 10.0.2.2/30 dev d-data
+s ip link set lo up
+r ip link set lo up
+d ip link set lo up
+s ip link set s-data up
+r ip link set r-left up
+r ip link set r-right up
+d ip link set d-data up
+s ip -br addr
+r ip -br addr
+d ip -br addr
+s ping -c 2 10.0.1.2
+d ping -c 2 10.0.2.1
+r sysctl -w net.ipv4.ip_forward=1
+s sh -c 'for f in /proc/sys/net/ipv4/conf/*/rp_filter; do echo 0 > "$f"; done'
+r sh -c 'for f in /proc/sys/net/ipv4/conf/*/rp_filter; do echo 0 > "$f"; done'
+d sh -c 'for f in /proc/sys/net/ipv4/conf/*/rp_filter; do echo 0 > "$f"; done'
+s python3 tools/disable_offloads.py s-data
+r python3 tools/disable_offloads.py r-left r-right
+d python3 tools/disable_offloads.py d-data
+s sysctl -w net.ipv4.tcp_timestamps=0 net.ipv4.tcp_ecn=0 net.ipv4.tcp_no_metrics_save=1
+d sysctl -w net.ipv4.tcp_timestamps=0 net.ipv4.tcp_ecn=0 net.ipv4.tcp_no_metrics_save=1
+s ethtool -k s-data
+r ethtool -k r-right
+d ethtool -k d-data
+r sysctl net.ipv4.ip_forward
+r sysctl net.ipv4.conf.r-right.rp_filter
+s ip route replace 10.0.2.2/32 via 10.0.1.2 dev s-data src 10.0.1.1
+d ip route replace 10.0.1.1/32 via 10.0.2.1 dev d-data src 10.0.2.2
+s ip route get 10.0.2.2 from 10.0.1.1
+d ip route get 10.0.1.1 from 10.0.2.2
+d ping -n -I 10.0.2.2 -c 4 10.0.1.1
+s tc qdisc replace dev s-data root handle 10: netem delay 20ms rate 50mbit limit 10000
+r tc qdisc replace dev r-left root handle 10: netem delay 20ms rate 50mbit limit 10000
+r tc qdisc replace dev r-right root handle 10: netem delay 5ms rate 10mbit limit 60
+d tc qdisc replace dev d-data root handle 10: netem delay 5ms rate 10mbit limit 10000
+s tc -s qdisc show dev s-data
+r tc -s qdisc show dev r-left
+r tc -s qdisc show dev r-right
+d tc -s qdisc show dev d-data
+labcheck
+d ping -n -I 10.0.2.2 -c 8 10.0.1.1
+sh modprobe tcp_cubic
+sh modprobe tcp_vegas
+sh modprobe tcp_bbr
+s sysctl net.ipv4.tcp_available_congestion_control
+sh uname -r

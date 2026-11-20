@@ -1,0 +1,123 @@
+sh echo "=== TRIAL runs/reno-buffer60-run1 (limit 60, cport 5301) ==="
+r tc qdisc replace dev r-right root handle 10: netem delay 5ms rate 10mbit limit 60
+s ip tcp_metrics flush all
+d ip tcp_metrics flush all
+record runs/reno-buffer60-run1 40 reno 60 5301
+s iperf3 -s -1 -B 10.0.1.1 -p 5201 -J > runs/reno-buffer60-run1/server.json 2> runs/reno-buffer60-run1/server.err &
+sh sleep 1
+d iperf3 -4 -c 10.0.1.1 -B 10.0.2.2 -p 5201 --cport 5301 -R -C reno -M 960 -t 40 -i 1 -J --get-server-output > runs/reno-buffer60-run1/client.json 2> runs/reno-buffer60-run1/client.err
+waitrecord
+plot runs/reno-buffer60-run1
+sh echo "=== TRIAL runs/reno-buffer60-run2 (limit 60, cport 5302) ==="
+r tc qdisc replace dev r-right root handle 10: netem delay 5ms rate 10mbit limit 60
+s ip tcp_metrics flush all
+d ip tcp_metrics flush all
+record runs/reno-buffer60-run2 40 reno 60 5302
+s iperf3 -s -1 -B 10.0.1.1 -p 5201 -J > runs/reno-buffer60-run2/server.json 2> runs/reno-buffer60-run2/server.err &
+sh sleep 1
+d iperf3 -4 -c 10.0.1.1 -B 10.0.2.2 -p 5201 --cport 5302 -R -C reno -M 960 -t 40 -i 1 -J --get-server-output > runs/reno-buffer60-run2/client.json 2> runs/reno-buffer60-run2/client.err
+waitrecord
+plot runs/reno-buffer60-run2
+sh echo "=== TRIAL runs/reno-buffer10-run1 (limit 10, cport 5303) ==="
+r tc qdisc replace dev r-right root handle 10: netem delay 5ms rate 10mbit limit 10
+s ip tcp_metrics flush all
+d ip tcp_metrics flush all
+record runs/reno-buffer10-run1 40 reno 10 5303
+s iperf3 -s -1 -B 10.0.1.1 -p 5201 -J > runs/reno-buffer10-run1/server.json 2> runs/reno-buffer10-run1/server.err &
+sh sleep 1
+d iperf3 -4 -c 10.0.1.1 -B 10.0.2.2 -p 5201 --cport 5303 -R -C reno -M 960 -t 40 -i 1 -J --get-server-output > runs/reno-buffer10-run1/client.json 2> runs/reno-buffer10-run1/client.err
+waitrecord
+plot runs/reno-buffer10-run1
+sh echo "=== TRIAL runs/reno-buffer10-run2 (limit 10, cport 5304) ==="
+r tc qdisc replace dev r-right root handle 10: netem delay 5ms rate 10mbit limit 10
+s ip tcp_metrics flush all
+d ip tcp_metrics flush all
+record runs/reno-buffer10-run2 40 reno 10 5304
+s iperf3 -s -1 -B 10.0.1.1 -p 5201 -J > runs/reno-buffer10-run2/server.json 2> runs/reno-buffer10-run2/server.err &
+sh sleep 1
+d iperf3 -4 -c 10.0.1.1 -B 10.0.2.2 -p 5201 --cport 5304 -R -C reno -M 960 -t 40 -i 1 -J --get-server-output > runs/reno-buffer10-run2/client.json 2> runs/reno-buffer10-run2/client.err
+waitrecord
+plot runs/reno-buffer10-run2
+sh echo "=== TRIAL runs/reno-buffer240-run1 (limit 240, cport 5305) ==="
+r tc qdisc replace dev r-right root handle 10: netem delay 5ms rate 10mbit limit 240
+s ip tcp_metrics flush all
+d ip tcp_metrics flush all
+record runs/reno-buffer240-run1 40 reno 240 5305
+s iperf3 -s -1 -B 10.0.1.1 -p 5201 -J > runs/reno-buffer240-run1/server.json 2> runs/reno-buffer240-run1/server.err &
+sh sleep 1
+d iperf3 -4 -c 10.0.1.1 -B 10.0.2.2 -p 5201 --cport 5305 -R -C reno -M 960 -t 40 -i 1 -J --get-server-output > runs/reno-buffer240-run1/client.json 2> runs/reno-buffer240-run1/client.err
+waitrecord
+plot runs/reno-buffer240-run1
+sh echo "=== TRIAL runs/reno-buffer240-run2 (limit 240, cport 5306) ==="
+r tc qdisc replace dev r-right root handle 10: netem delay 5ms rate 10mbit limit 240
+s ip tcp_metrics flush all
+d ip tcp_metrics flush all
+record runs/reno-buffer240-run2 40 reno 240 5306
+s iperf3 -s -1 -B 10.0.1.1 -p 5201 -J > runs/reno-buffer240-run2/server.json 2> runs/reno-buffer240-run2/server.err &
+sh sleep 1
+d iperf3 -4 -c 10.0.1.1 -B 10.0.2.2 -p 5201 --cport 5306 -R -C reno -M 960 -t 40 -i 1 -J --get-server-output > runs/reno-buffer240-run2/client.json 2> runs/reno-buffer240-run2/client.err
+waitrecord
+plot runs/reno-buffer240-run2
+sh echo "=== TRIAL runs/cubic-buffer240-run1 (limit 240, cport 5307) ==="
+r tc qdisc replace dev r-right root handle 10: netem delay 5ms rate 10mbit limit 240
+s ip tcp_metrics flush all
+d ip tcp_metrics flush all
+record runs/cubic-buffer240-run1 40 cubic 240 5307
+s iperf3 -s -1 -B 10.0.1.1 -p 5201 -J > runs/cubic-buffer240-run1/server.json 2> runs/cubic-buffer240-run1/server.err &
+sh sleep 1
+d iperf3 -4 -c 10.0.1.1 -B 10.0.2.2 -p 5201 --cport 5307 -R -C cubic -M 960 -t 40 -i 1 -J --get-server-output > runs/cubic-buffer240-run1/client.json 2> runs/cubic-buffer240-run1/client.err
+waitrecord
+plot runs/cubic-buffer240-run1
+sh echo "=== TRIAL runs/cubic-buffer240-run2 (limit 240, cport 5308) ==="
+r tc qdisc replace dev r-right root handle 10: netem delay 5ms rate 10mbit limit 240
+s ip tcp_metrics flush all
+d ip tcp_metrics flush all
+record runs/cubic-buffer240-run2 40 cubic 240 5308
+s iperf3 -s -1 -B 10.0.1.1 -p 5201 -J > runs/cubic-buffer240-run2/server.json 2> runs/cubic-buffer240-run2/server.err &
+sh sleep 1
+d iperf3 -4 -c 10.0.1.1 -B 10.0.2.2 -p 5201 --cport 5308 -R -C cubic -M 960 -t 40 -i 1 -J --get-server-output > runs/cubic-buffer240-run2/client.json 2> runs/cubic-buffer240-run2/client.err
+waitrecord
+plot runs/cubic-buffer240-run2
+sh echo "=== TRIAL runs/vegas-buffer240-run1 (limit 240, cport 5309) ==="
+r tc qdisc replace dev r-right root handle 10: netem delay 5ms rate 10mbit limit 240
+s ip tcp_metrics flush all
+d ip tcp_metrics flush all
+record runs/vegas-buffer240-run1 40 vegas 240 5309
+s iperf3 -s -1 -B 10.0.1.1 -p 5201 -J > runs/vegas-buffer240-run1/server.json 2> runs/vegas-buffer240-run1/server.err &
+sh sleep 1
+d iperf3 -4 -c 10.0.1.1 -B 10.0.2.2 -p 5201 --cport 5309 -R -C vegas -M 960 -t 40 -i 1 -J --get-server-output > runs/vegas-buffer240-run1/client.json 2> runs/vegas-buffer240-run1/client.err
+waitrecord
+plot runs/vegas-buffer240-run1
+sh echo "=== TRIAL runs/vegas-buffer240-run2 (limit 240, cport 5310) ==="
+r tc qdisc replace dev r-right root handle 10: netem delay 5ms rate 10mbit limit 240
+s ip tcp_metrics flush all
+d ip tcp_metrics flush all
+record runs/vegas-buffer240-run2 40 vegas 240 5310
+s iperf3 -s -1 -B 10.0.1.1 -p 5201 -J > runs/vegas-buffer240-run2/server.json 2> runs/vegas-buffer240-run2/server.err &
+sh sleep 1
+d iperf3 -4 -c 10.0.1.1 -B 10.0.2.2 -p 5201 --cport 5310 -R -C vegas -M 960 -t 40 -i 1 -J --get-server-output > runs/vegas-buffer240-run2/client.json 2> runs/vegas-buffer240-run2/client.err
+waitrecord
+plot runs/vegas-buffer240-run2
+sh echo "=== TRIAL runs/bbr-buffer240-run1 (limit 240, cport 5311) ==="
+r tc qdisc replace dev r-right root handle 10: netem delay 5ms rate 10mbit limit 240
+s ip tcp_metrics flush all
+d ip tcp_metrics flush all
+record runs/bbr-buffer240-run1 40 bbr 240 5311
+s iperf3 -s -1 -B 10.0.1.1 -p 5201 -J > runs/bbr-buffer240-run1/server.json 2> runs/bbr-buffer240-run1/server.err &
+sh sleep 1
+d iperf3 -4 -c 10.0.1.1 -B 10.0.2.2 -p 5201 --cport 5311 -R -C bbr -M 960 -t 40 -i 1 -J --get-server-output > runs/bbr-buffer240-run1/client.json 2> runs/bbr-buffer240-run1/client.err
+waitrecord
+plot runs/bbr-buffer240-run1
+sh echo "=== TRIAL runs/bbr-buffer240-run2 (limit 240, cport 5312) ==="
+r tc qdisc replace dev r-right root handle 10: netem delay 5ms rate 10mbit limit 240
+s ip tcp_metrics flush all
+d ip tcp_metrics flush all
+record runs/bbr-buffer240-run2 40 bbr 240 5312
+s iperf3 -s -1 -B 10.0.1.1 -p 5201 -J > runs/bbr-buffer240-run2/server.json 2> runs/bbr-buffer240-run2/server.err &
+sh sleep 1
+d iperf3 -4 -c 10.0.1.1 -B 10.0.2.2 -p 5201 --cport 5312 -R -C bbr -M 960 -t 40 -i 1 -J --get-server-output > runs/bbr-buffer240-run2/client.json 2> runs/bbr-buffer240-run2/client.err
+waitrecord
+plot runs/bbr-buffer240-run2
+sh echo "=== AGGREGATING ==="
+sh env PYTHONPATH="$PWD/src" python3 tools/compare_runs.py --run B10=runs/reno-buffer10-run1 --run B10=runs/reno-buffer10-run2 --run B60=runs/reno-buffer60-run1 --run B60=runs/reno-buffer60-run2 --run B240=runs/reno-buffer240-run1 --run B240=runs/reno-buffer240-run2 --output figures/buffer-study
+sh env PYTHONPATH="$PWD/src" python3 tools/compare_runs.py --run RENO=runs/reno-buffer240-run1 --run RENO=runs/reno-buffer240-run2 --run CUBIC=runs/cubic-buffer240-run1 --run CUBIC=runs/cubic-buffer240-run2 --run VEGAS=runs/vegas-buffer240-run1 --run VEGAS=runs/vegas-buffer240-run2 --run BBR=runs/bbr-buffer240-run1 --run BBR=runs/bbr-buffer240-run2 --output figures/cca-study
